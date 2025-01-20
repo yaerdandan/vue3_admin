@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>我是app</h1>
+    <SvgIcon name="test"></SvgIcon>
   </div>
 </template>
-
-<style scoped>
-
-</style>
+<script lang="ts" setup name="App">
+import SvgIcon from './components/SvgIcon/index.vue'
+</script>
+<style scoped></style>
